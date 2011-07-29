@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9BFA4913E3757A00C160E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BFA4813E3757A00C160E0 /* Foundation.framework */; };
+		CE9BFA4C13E3757A00C160E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BFA4B13E3757A00C160E0 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE9BFA4213E3757A00C160E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE9BFA4413E3757A00C160E0 /* Learn Objective C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Learn Objective C"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BFA4813E3757A00C160E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE9BFA4B13E3757A00C160E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9BFA4E13E3757A00C160E0 /* Learn Objective C-Prefix.pch */ = {isa = PBXFileReference; path = "Learn Objective C-Prefix.pch"; sourceTree = "<group>"; };
+		CE9BFA4F13E3757A00C160E0 /* Learn_Objective_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learn_Objective_C.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9BFA4113E3757A00C160E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BFA4913E3757A00C160E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9BFA3913E3757A00C160E0 = {
+			isa = PBXGroup;
+			children = (
+				CE9BFA4A13E3757A00C160E0 /* Learn Objective C */,
+				CE9BFA4713E3757A00C160E0 /* Frameworks */,
+				CE9BFA4513E3757A00C160E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9BFA4513E3757A00C160E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BFA4413E3757A00C160E0 /* Learn Objective C */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9BFA4713E3757A00C160E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BFA4813E3757A00C160E0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9BFA4A13E3757A00C160E0 /* Learn Objective C */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BFA4B13E3757A00C160E0 /* main.m */,
+				CE9BFA4F13E3757A00C160E0 /* Learn_Objective_C.1 */,
+				CE9BFA4D13E3757A00C160E0 /* Supporting Files */,
+			);
+			path = "Learn Objective C";
+			sourceTree = "<group>";
+		};
+		CE9BFA4D13E3757A00C160E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BFA4E13E3757A00C160E0 /* Learn Objective C-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9BFA4313E3757A00C160E0 /* Learn Objective C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9BFA5213E3757A00C160E0 /* Build configuration list for PBXNativeTarget "Learn Objective C" */;
+			buildPhases = (
+				CE9BFA4013E3757A00C160E0 /* Sources */,
+				CE9BFA4113E3757A00C160E0 /* Frameworks */,
+				CE9BFA4213E3757A00C160E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learn Objective C";
+			productName = "Learn Objective C";
+			productReference = CE9BFA4413E3757A00C160E0 /* Learn Objective C */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9BFA3B13E3757A00C160E0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE9BFA3E13E3757A00C160E0 /* Build configuration list for PBXProject "Learn Objective C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9BFA3913E3757A00C160E0;
+			productRefGroup = CE9BFA4513E3757A00C160E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9BFA4313E3757A00C160E0 /* Learn Objective C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9BFA4013E3757A00C160E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BFA4C13E3757A00C160E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE9BFA5013E3757A00C160E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE9BFA5113E3757A00C160E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE9BFA5313E3757A00C160E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learn Objective C/Learn Objective C-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE9BFA5413E3757A00C160E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learn Objective C/Learn Objective C-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9BFA3E13E3757A00C160E0 /* Build configuration list for PBXProject "Learn Objective C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9BFA5013E3757A00C160E0 /* Debug */,
+				CE9BFA5113E3757A00C160E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9BFA5213E3757A00C160E0 /* Build configuration list for PBXNativeTarget "Learn Objective C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9BFA5313E3757A00C160E0 /* Debug */,
+				CE9BFA5413E3757A00C160E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9BFA3B13E3757A00C160E0 /* Project object */;
+}
